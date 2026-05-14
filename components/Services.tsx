@@ -1,12 +1,12 @@
 import { useTranslations } from 'next-intl';
-import { Sparkles, Scissors, Anchor, AlignJustify } from 'lucide-react';
+import { Sparkles, Scissors, Milestone, AlignJustify } from 'lucide-react';
 import { Link } from '@/lib/navigation';
 import { Reveal } from './Reveal';
 
 const serviceMeta = [
   { key: 'aesthetic', icon: Sparkles, color: 'bg-brand-500' },
   { key: 'surgery', icon: Scissors, color: 'bg-brand-700' },
-  { key: 'implant', icon: Anchor, color: 'bg-brand-600' },
+  { key: 'implant', icon: Milestone, color: 'bg-brand-600' },
   { key: 'odf', icon: AlignJustify, color: 'bg-brand-800' }
 ] as const;
 
