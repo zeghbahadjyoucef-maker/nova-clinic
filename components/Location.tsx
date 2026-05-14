@@ -93,12 +93,12 @@ export function Location() {
           </div>
         </div>
 
-        <div className="lg:col-span-3">
-          <div className="overflow-hidden rounded-[2rem] bg-white p-2 shadow-card ring-1 ring-brand-50">
+        <div className="lg:col-span-3 lg:self-stretch">
+          <div className="h-full overflow-hidden rounded-[2rem] bg-white p-2 shadow-card ring-1 ring-brand-50">
             <iframe
               title="Cabinet Dentaire NOVA — Map"
               src={siteConfig.maps.embed}
-              className="h-[420px] w-full rounded-3xl lg:h-[560px]"
+              className="h-full min-h-[420px] w-full rounded-3xl"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
             />
