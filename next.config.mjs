@@ -9,6 +9,15 @@ const nextConfig = {
       { protocol: 'https', hostname: 'images.unsplash.com' },
       { protocol: 'https', hostname: 'plus.unsplash.com' }
     ]
+  },
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/fr',
+        permanent: false
+      }
+    ];
   }
 };
 
