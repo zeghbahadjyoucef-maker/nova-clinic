@@ -33,7 +33,7 @@ export function Header() {
               <a
                 key={l.href}
                 href={l.href}
-                className="text-base font-semibold text-ink-soft transition hover:text-brand-700"
+                className="relative text-base font-semibold text-ink-soft transition hover:text-brand-700 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:rounded-full after:bg-brand-400 after:opacity-30 after:transition hover:after:opacity-100"
               >
                 {l.label}
               </a>
