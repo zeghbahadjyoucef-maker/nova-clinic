@@ -70,8 +70,8 @@ export function Location() {
                     className="flex flex-col gap-3 rounded-xl bg-brand-50/60 px-3 py-3"
                   >
                     <span className="font-semibold text-ink">{p.label}</span>
-                    <div className="flex flex-col gap-2">
-                      <Button href={`tel:+${p.whatsapp}`} external size="md" variant="secondary" className="w-full justify-center">
+                    <div className="flex gap-2">
+                      <Button href={`tel:+${p.whatsapp}`} external size="md" variant="secondary" className="flex-1 justify-center">
                         {t('call')}
                       </Button>
                       {p.hasWhatsapp && (
@@ -80,7 +80,7 @@ export function Location() {
                           external
                           size="md"
                           variant="whatsapp"
-                          className="w-full justify-center"
+                          className="flex-1 justify-center"
                         >
                           <MessageCircle className="h-3.5 w-3.5" /> {t('whatsapp')}
                         </Button>
