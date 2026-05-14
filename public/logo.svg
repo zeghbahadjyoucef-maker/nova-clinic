@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" fill="none">
+  <defs>
+    <linearGradient id="toothGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4FB0DE"/>
+      <stop offset="100%" stop-color="#1387B5"/>
+    </linearGradient>
+  </defs>
+  <!-- Orbit ring -->
+  <ellipse cx="32" cy="20" rx="22" ry="6" stroke="#1FA9E0" stroke-width="3" fill="none"/>
+  <!-- Tooth body -->
+  <path d="M22 24 C22 18, 28 16, 32 18 C36 16, 42 18, 42 24 C42 32, 38 40, 36 46 C35 49, 33 50, 32 47 C31 50, 29 49, 28 46 C26 40, 22 32, 22 24 Z"
+        fill="url(#toothGrad)"/>
+  <!-- Lower shadow tooth root -->
+  <path d="M28 42 C29 48, 31 50, 32 48 C33 50, 35 48, 36 42 L34 50 C33 53, 31 53, 30 50 Z"
+        fill="#475569" opacity="0.5"/>
+</svg>

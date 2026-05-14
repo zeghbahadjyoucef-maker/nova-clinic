@@ -1,0 +1,55 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FAFCFE;
+  --foreground: #1E2A3A;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Soft blue blob backgrounds */
+.blob {
+  position: absolute;
+  filter: blur(60px);
+  opacity: 0.55;
+  pointer-events: none;
+  z-index: 0;
+}
+
+/* Glass effect for sticky header */
+.glass {
+  background: rgba(255, 255, 255, 0.72);
+  backdrop-filter: saturate(180%) blur(14px);
+  -webkit-backdrop-filter: saturate(180%) blur(14px);
+}
+
+/* Reveal-on-scroll: handled by framer-motion, this is a fallback */
+@media (prefers-reduced-motion: reduce) {
+  .animate-float,
+  .animate-blob,
+  .animate-fade-up {
+    animation: none !important;
+  }
+}
+
+/* Script style for the hero accent word */
+.script-accent {
+  font-family: var(--font-script), 'Brush Script MT', cursive;
+  font-weight: 400;
+  font-style: italic;
+}
+
+/* Inputs */
+.input-base {
+  @apply w-full rounded-2xl border border-brand-100 bg-white px-4 py-3 text-ink placeholder:text-ink-muted shadow-sm outline-none transition focus:border-brand-400 focus:ring-4 focus:ring-brand-100;
+}

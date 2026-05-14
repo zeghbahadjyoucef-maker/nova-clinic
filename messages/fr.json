@@ -1,0 +1,345 @@
+{
+  "meta": {
+    "title": "Cabinet Dentaire NOVA,Dr Boulounis",
+    "description": "Cabinet Dentaire NOVA,Dr Boulounis. Dentisterie esthétique, chirurgie buccale, implantologie et orthodontie (ODF) à Alger."
+  },
+  "nav": {
+    "home": "Accueil",
+    "services": "Services",
+    "about": "À propos",
+    "reviews": "Avis",
+    "contact": "Contact",
+    "cta": "Prendre RDV"
+  },
+  "hero": {
+    "eyebrow": "✨ Votre sourire, notre priorité",
+    "titleStart": "Une raison",
+    "titleAccent": "Sourire",
+    "titleEnd": "de plus de",
+    "subtitle": "Le Cabinet Dentaire NOVA propose une prise en charge complète : dentisterie esthétique, chirurgie buccale, implantologie et orthodontie dento-faciale. Une équipe à l'écoute et des soins de qualité, dans un cadre moderne et chaleureux.",
+    "ctaPrimary": "Prendre rendez-vous",
+    "ctaSecondary": "Voir nos services",
+    "badgePatients": "Clients satisfaits",
+    "badgeQuality": "Soins de qualité"
+  },
+  "trust": {
+    "title": "Conventionné avec"
+  },
+  "whyUs": {
+    "eyebrow": "POURQUOI NOUS CHOISIR",
+    "title": "Pourquoi le",
+    "titleAccent": "Cabinet NOVA",
+    "items": [
+      {
+        "title": "Soins de haut niveau",
+        "body": "Un plateau technique moderne et des protocoles rigoureux pour des soins durables."
+      },
+      {
+        "title": "Technologies à jour",
+        "body": "Nous utilisons les dernières technologies pour vous offrir le sourire dont vous rêvez."
+      },
+      {
+        "title": "Une équipe à votre écoute",
+        "body": "Un accueil bienveillant et des explications claires à chaque étape de votre traitement."
+      }
+    ],
+    "stamp": "Haute qualité & Professionnalisme"
+  },
+  "services": {
+    "eyebrow": "NOS SPÉCIALITÉS",
+    "title": "Services & Soins",
+    "subtitle": "Quatre pôles d'expertise pour prendre soin de votre santé bucco-dentaire.",
+    "items": {
+      "aesthetic": {
+        "title": "Dentisterie esthétique",
+        "body": "Blanchiment, facettes, composites,pour un sourire harmonieux et éclatant."
+      },
+      "surgery": {
+        "title": "Chirurgie buccale",
+        "body": "Extractions, dents de sagesse, kystes,interventions sûres et indolores."
+      },
+      "implant": {
+        "title": "Implantologie",
+        "body": "Remplacement durable des dents manquantes par des implants de haute qualité."
+      },
+      "odf": {
+        "title": "Orthodontie (ODF)",
+        "body": "Aligneurs et appareils pour corriger la position des dents, enfants et adultes."
+      }
+    },
+    "learnMore": "En savoir plus"
+  },
+  "doctor": {
+    "eyebrow": "NOTRE PRATICIEN",
+    "title": "Un dentiste qualifié",
+    "name": "Dr Boulounis",
+    "role": "Chirurgien-Dentiste",
+    "bio": "Diplômé en chirurgie dentaire, le Dr Boulounis met son expertise au service de ses patients depuis plusieurs années. Spécialisé en dentisterie esthétique, chirurgie buccale, implantologie et orthodontie, il privilégie une approche douce, personnalisée et basée sur les dernières avancées.",
+    "tags": ["Esthétique", "Chirurgie", "Implantologie", "ODF"],
+    "cta": "Prendre rendez-vous"
+  },
+  "reviews": {
+    "eyebrow": "ILS NOUS FONT CONFIANCE",
+    "title": "Avis de nos patients",
+    "rating": "5,0 / 5 · Google Maps",
+    "items": [
+      {
+        "name": "Nabil-Hadj-Youcef Z.",
+        "text": "Vraiment une excellente clinique. Le dentiste est compétent, calme et maîtrise parfaitement son métier. On se sent entre de bonnes mains dès le premier rendez-vous. Il prend le temps d'expliquer chaque étape du traitement. La clinique est impeccable côté propreté. Je recommande sans la moindre hésitation."
+      },
+      {
+        "name": "Riad D.",
+        "text": "Excellente expérience en orthodontie. Le dentiste est très professionnel, attentif, et prend le temps d'expliquer chaque étape du traitement."
+      },
+      {
+        "name": "Belaid S.",
+        "text": "Cabinet moderne et bien équipé. Une équipe sérieuse et des soins de qualité. Très satisfait du résultat."
+      }
+    ]
+  },
+  "tips": {
+    "eyebrow": "INFOS & ACTUALITÉS",
+    "title": "Conseils, actus & promos",
+    "items": [
+      {
+        "tag": "CONSEIL",
+        "title": "Comment bien se brosser les dents ?",
+        "body": "Découvrez la technique recommandée par les dentistes pour préserver vos dents et vos gencives."
+      },
+      {
+        "tag": "NEWS",
+        "title": "Nouveau plateau technique",
+        "body": "Notre cabinet s'équipe d'un scanner 3D pour des diagnostics plus précis."
+      },
+      {
+        "tag": "PROMO",
+        "title": "Bilan dentaire offert",
+        "body": "Pour toute première visite, profitez d'un bilan dentaire complet offert."
+      }
+    ],
+    "readMore": "Lire la suite"
+  },
+  "appointment": {
+    "eyebrow": "PRENEZ RENDEZ-VOUS",
+    "title": "Réservez votre",
+    "titleAccent": "consultation",
+    "subtitle": "Remplissez le formulaire ci-dessous. Vous serez redirigé vers WhatsApp pour confirmer votre rendez-vous directement avec le cabinet.",
+    "fields": {
+      "name": "Nom complet",
+      "namePlaceholder": "Votre nom et prénom",
+      "phone": "Téléphone",
+      "phonePlaceholder": "06 xx xx xx xx",
+      "service": "Service souhaité",
+      "servicePlaceholder": "Choisir un service",
+      "date": "Date souhaitée",
+      "message": "Message (optionnel)",
+      "messagePlaceholder": "Détails supplémentaires...",
+      "callNumber": "Envoyer au numéro"
+    },
+    "submit": "Envoyer via WhatsApp",
+    "fallback": "Ou appelez-nous directement"
+  },
+  "location": {
+    "eyebrow": "NOUS TROUVER",
+    "title": "Adresse & horaires",
+    "address": "BT 03, N01, Réghaïa 16036, Alger",
+    "addressPlaceholder": "",
+    "openMaps": "Ouvrir dans Google Maps",
+    "hoursTitle": "Horaires d'ouverture",
+    "hours": {
+      "weekdays": "Samedi – Jeudi",
+      "weekdaysTime": "09:00 – 18:00",
+      "friday": "Vendredi",
+      "fridayTime": "Fermé"
+    },
+    "phoneTitle": "Téléphone",
+    "whatsapp": "WhatsApp",
+    "call": "Appeler"
+  },
+  "footer": {
+    "tagline": "Votre sourire, notre passion.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "hoursTitle": "Horaires",
+    "rights": "Tous droits réservés.",
+    "made": "Conçu avec ❤ pour le Cabinet Dentaire NOVA."
+  },
+  "common": {
+    "switchLang": "العربية",
+    "openMenu": "Ouvrir le menu",
+    "closeMenu": "Fermer le menu"
+  },
+  "articles": {
+    "backHome": "← Retour à l'accueil",
+    "bookCta": "Prendre rendez-vous",
+    "ctaHeading": "Prêt à prendre rendez-vous ?",
+    "ctaSub": "Contactez le Cabinet NOVA directement via WhatsApp.",
+    "brossage": {
+      "tag": "CONSEIL",
+      "title": "Comment bien se brosser les dents ?",
+      "intro": "Un brossage efficace est la base d'une bonne santé bucco-dentaire. Pourtant, beaucoup de personnes ne connaissent pas la technique recommandée par les dentistes. Voici les conseils du Dr Boulounis pour des dents saines au quotidien.",
+      "sections": [
+        {
+          "heading": "La technique recommandée",
+          "body": "Placez la brosse à 45° par rapport à la gencive et utilisez des mouvements circulaires doux sur toutes les surfaces : extérieure, intérieure et occlusale. Évitez les va-et-vient horizontaux qui agressent l'émail et les gencives."
+        },
+        {
+          "heading": "Durée et fréquence",
+          "body": "Brossez-vous au minimum 2 fois par jour pendant 2 minutes à chaque fois. Le brossage du soir est le plus important : il élimine les bactéries accumulées dans la journée."
+        },
+        {
+          "heading": "Le bon matériel",
+          "body": "Brosse à poils souples, dentifrice fluoré adapté à votre âge, fil dentaire quotidien et bain de bouche. Renouvelez votre brosse tous les 3 mois."
+        },
+        {
+          "heading": "Et les visites chez le dentiste ?",
+          "body": "Même avec un brossage parfait, une consultation annuelle reste indispensable pour détecter caries, tartre et problèmes gingivaux à un stade précoce."
+        }
+      ]
+    },
+    "scanner-3d": {
+      "tag": "NEWS",
+      "title": "Nouveau plateau technique : le scanner 3D au Cabinet NOVA",
+      "intro": "Le Cabinet NOVA investit dans les dernières technologies pour vous offrir des soins encore plus précis. Nous venons d'acquérir un scanner 3D de dernière génération pour des diagnostics inégalés.",
+      "sections": [
+        {
+          "heading": "Qu'est-ce qu'un scanner 3D dentaire ?",
+          "body": "Le scanner 3D (CBCT) produit des images tridimensionnelles détaillées des dents, de l'os alvéolaire et des structures environnantes. Contrairement à une radio classique, il offre une vision en volume et en profondeur."
+        },
+        {
+          "heading": "Une précision inégalée",
+          "body": "Grâce à cet outil, le Dr Boulounis peut planifier vos implants avec une précision chirurgicale, réaliser des bilans orthodontiques approfondis et détecter des lésions invisibles à la radiographie conventionnelle."
+        },
+        {
+          "heading": "Quels traitements en bénéficient ?",
+          "body": "L'implantologie, l'orthodontie, la chirurgie buccale et les bilans de santé bucco-dentaire complets. Le scanner 3D réduit les erreurs, améliore la précision et garantit un résultat optimal."
+        },
+        {
+          "heading": "Comment en bénéficier ?",
+          "body": "Lors de votre prochaine consultation, demandez un bilan 3D si votre traitement le nécessite. Contactez-nous pour plus d'informations ou pour réserver votre rendez-vous."
+        }
+      ]
+    },
+    "bilan-gratuit": {
+      "tag": "PROMO",
+      "title": "Bilan dentaire complet offert pour toute première visite",
+      "intro": "Vous n'avez pas consulté un dentiste depuis longtemps ? Profitez de notre offre : un bilan dentaire complet offert pour toute première visite au Cabinet NOVA.",
+      "sections": [
+        {
+          "heading": "Ce qui est inclus",
+          "body": "Examen clinique complet de vos dents, gencives et occlusion, évaluation de votre hygiène bucco-dentaire, conseils personnalisés du Dr Boulounis et établissement d'un plan de traitement si nécessaire."
+        },
+        {
+          "heading": "Pourquoi un bilan régulier est essentiel",
+          "body": "Un contrôle régulier permet de détecter caries, maladies parodontales et autres problèmes à un stade précoce, avant qu'ils ne nécessitent des traitements plus complexes et coûteux."
+        },
+        {
+          "heading": "Comment en profiter",
+          "body": "Prenez rendez-vous pour une première consultation et mentionnez que vous souhaitez bénéficier du bilan offert. Réservez via WhatsApp ou en nous appelant directement."
+        },
+        {
+          "heading": "Conditions",
+          "body": "Cette offre est valable pour les nouveaux patients uniquement et ne comprend pas les radiographies ou les actes thérapeutiques, soumis à la tarification en vigueur."
+        }
+      ]
+    }
+  },
+  "servicesDetail": {
+    "backHome": "← Retour à l'accueil",
+    "bookCta": "Prendre rendez-vous",
+    "ctaHeading": "Prêt à prendre rendez-vous ?",
+    "ctaSub": "Contactez le Cabinet NOVA directement via WhatsApp.",
+    "aesthetic": {
+      "eyebrow": "DENTISTERIE ESTHÉTIQUE",
+      "title": "Retrouvez un sourire éclatant",
+      "intro": "La dentisterie esthétique regroupe toutes les techniques permettant d'améliorer l'apparence de vos dents. Au Cabinet NOVA, le Dr Boulounis vous propose des solutions adaptées pour un sourire harmonieux et naturel.",
+      "points": [
+        {
+          "heading": "Blanchiment dentaire",
+          "body": "Grâce aux techniques professionnelles de blanchiment, obtenez un sourire plusieurs teintes plus blanc en une seule séance. Sûr, rapide et indolore."
+        },
+        {
+          "heading": "Facettes en céramique",
+          "body": "De fines pellicules de céramique collées sur la face visible des dents corrigent leur forme, couleur et imperfections pour un résultat naturel et durable."
+        },
+        {
+          "heading": "Composites esthétiques",
+          "body": "La résine composite remodèle une dent cassée, comble un espace ou masque une tache. Solution rapide, économique et réversible."
+        },
+        {
+          "heading": "Résultats durables",
+          "body": "Avec un bon entretien et un suivi régulier avec le Dr Boulounis, les traitements esthétiques peuvent durer de nombreuses années."
+        }
+      ]
+    },
+    "surgery": {
+      "eyebrow": "CHIRURGIE BUCCALE",
+      "title": "Des interventions sûres et indolores",
+      "intro": "La chirurgie buccale regroupe tous les actes chirurgicaux réalisés en cabinet : extractions, dents de sagesse, kystes et lésions. Au Cabinet NOVA, chaque intervention est réalisée dans les règles de l'art.",
+      "points": [
+        {
+          "heading": "Extractions dentaires",
+          "body": "Dent cariée, fracturée ou mobile : le Dr Boulounis réalise l'extraction sous anesthésie locale pour un confort optimal. La cicatrisation est rapide et les suites simples."
+        },
+        {
+          "heading": "Dents de sagesse",
+          "body": "L'extraction des dents de sagesse est souvent nécessaire lorsqu'elles sont incluses, mal positionnées ou source d'infections. L'intervention se déroule sous anesthésie locale."
+        },
+        {
+          "heading": "Kystes et lésions",
+          "body": "Les kystes dentaires peuvent rester silencieux des années. Détectés grâce aux examens radiographiques, ils sont traités chirurgicalement pour prévenir les complications."
+        },
+        {
+          "heading": "Protocoles rigoureux",
+          "body": "Chaque intervention respecte les protocoles d'asepsie les plus stricts. Des prescriptions adaptées sont fournies pour une récupération optimale."
+        }
+      ]
+    },
+    "implant": {
+      "eyebrow": "IMPLANTOLOGIE",
+      "title": "Remplacez vos dents manquantes durablement",
+      "intro": "L'implantologie est la solution la plus naturelle pour remplacer des dents manquantes. Le Dr Boulounis pose des implants en titane de haute qualité, conçus pour durer toute une vie.",
+      "points": [
+        {
+          "heading": "Qu'est-ce qu'un implant dentaire ?",
+          "body": "Un implant est une racine artificielle en titane intégrée dans l'os de la mâchoire. Une couronne en céramique est ensuite fixée dessus pour recréer une dent naturelle en apparence et en fonction."
+        },
+        {
+          "heading": "Le processus en 3 étapes",
+          "body": "1. Pose de l'implant sous anesthésie locale. 2. Ostéointégration (2 à 4 mois). 3. Pose de la prothèse définitive pour un résultat esthétique et fonctionnel."
+        },
+        {
+          "heading": "Pour qui ?",
+          "body": "Les implants conviennent à tout adulte ayant une ou plusieurs dents manquantes avec un os suffisant. Un bilan préalable valide votre candidature."
+        },
+        {
+          "heading": "Durabilité",
+          "body": "Avec un entretien quotidien et des visites régulières, un implant peut durer 20 ans ou plus. C'est l'investissement le plus rentable pour votre santé dentaire à long terme."
+        }
+      ]
+    },
+    "odf": {
+      "eyebrow": "ORTHODONTIE (ODF)",
+      "title": "Alignez vos dents, transformez votre sourire",
+      "intro": "L'orthodontie dento-faciale permet de corriger la position des dents et des mâchoires. Au Cabinet NOVA, le Dr Boulounis propose des solutions adaptées à chaque âge : enfants, adolescents et adultes.",
+      "points": [
+        {
+          "heading": "Aligneurs transparents",
+          "body": "Discrètes, amovibles et confortables, les gouttières transparentes sont idéales pour les adultes souhaitant corriger leur sourire sans que cela ne se voie."
+        },
+        {
+          "heading": "Appareils fixes",
+          "body": "Les bagues orthodontiques restent la référence pour les corrections importantes. Elles offrent un contrôle précis du mouvement dentaire et conviennent parfaitement aux adolescents."
+        },
+        {
+          "heading": "À quel âge commencer ?",
+          "body": "Un premier bilan est recommandé dès 7 ans chez l'enfant. Les traitements précoces peuvent prévenir des corrections plus complexes. Chez l'adulte, il n'y a pas d'âge limite."
+        },
+        {
+          "heading": "Durée du traitement",
+          "body": "De 6 mois pour des corrections légères à 2 ans pour les cas complexes, avec un suivi tous les 6 à 8 semaines pour garantir la progression."
+        }
+      ]
+    }
+  }
+}
