@@ -67,7 +67,7 @@ export function Location() {
                 {siteConfig.phones.map((p) => (
                   <div
                     key={p.whatsapp}
-                    className="flex flex-col gap-2 rounded-xl bg-brand-50/60 px-3 py-3"
+                    className="flex flex-col justify-between gap-2 rounded-xl bg-brand-50/60 px-3 py-3 min-h-[100px]"
                   >
                     <span className="font-semibold text-ink">{p.label}</span>
                     <div className="flex flex-col gap-2">
