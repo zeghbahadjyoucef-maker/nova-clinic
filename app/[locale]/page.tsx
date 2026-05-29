@@ -18,8 +18,8 @@ export default function HomePage({ params: { locale } }: { params: { locale: str
       <Header />
       <main className="overflow-hidden">
         <Hero />
-        <WhyUs />
         <Services />
+        <WhyUs />
         <DoctorCard />
         <Reviews />
         <TipsNews />
