@@ -6,7 +6,7 @@ import { Reveal } from './Reveal';
 const ARTICLE_SLUGS = ['brossage', 'scanner-3d', 'bilan-gratuit'] as const;
 
 const images = [
-  'https://images.unsplash.com/photo-1698749778813-ad5f2814e50f?w=800&q=80&auto=format&fit=crop',
+  'https://images.unsplash.com/photo-1607613009820-a29f7bb81c04?w=800&q=80&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1728342057953-94bfad8f0e7e?w=800&q=80&auto=format&fit=crop',
   'https://images.unsplash.com/photo-1588776814546-1ffcf47267a5?w=800&q=80&auto=format&fit=crop'
 ];

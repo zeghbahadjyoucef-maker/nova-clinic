@@ -67,10 +67,10 @@ export function Location() {
                 {siteConfig.phones.map((p) => (
                   <div
                     key={p.whatsapp}
-                    className="flex items-center gap-3 rounded-xl bg-brand-50/60 px-3 py-3"
+                    className="rounded-xl bg-brand-50/60 px-3 py-3 space-y-2"
                   >
-                    <span className="flex-shrink-0 font-semibold text-ink">{p.label}</span>
-                    <div className="flex flex-1 gap-2">
+                    <span className="block font-semibold text-ink">{p.label}</span>
+                    <div className="flex gap-2">
                       <Button href={`tel:+${p.whatsapp}`} external size="md" variant="secondary" className="flex-1 justify-center">
                         {t('call')}
                       </Button>

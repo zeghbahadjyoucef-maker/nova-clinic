@@ -7,7 +7,7 @@ export function Reviews() {
   const items = t.raw('items') as { name: string; text: string }[];
 
   return (
-    <section id="reviews" className="bg-gradient-to-b from-brand-50/60 to-transparent py-20 lg:py-28">
+    <section id="reviews" className="bg-gradient-to-b from-brand-50/60 to-transparent py-20 scroll-mt-20 md:scroll-mt-24 lg:py-28">
       <div className="container">
         <Reveal className="mx-auto max-w-2xl text-center">
           <p className="text-sm font-semibold uppercase tracking-[0.18em] text-brand-600">

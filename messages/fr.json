@@ -128,7 +128,7 @@
       "name": "Nom complet",
       "namePlaceholder": "Votre nom et prénom",
       "phone": "Téléphone",
-      "phonePlaceholder": "06 xx xx xx xx",
+      "phonePlaceholder": "xx xx xx xx xx",
       "service": "Service souhaité",
       "servicePlaceholder": "Choisir un service",
       "date": "Date souhaitée",

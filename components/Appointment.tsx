@@ -33,7 +33,7 @@ export function Appointment() {
   }
 
   return (
-    <section id="contact" className="relative overflow-hidden py-20 lg:py-28">
+    <section id="contact" className="relative overflow-hidden py-20 scroll-mt-20 md:scroll-mt-24 lg:py-28">
       <div className="blob bg-brand-200 -start-32 top-20 h-96 w-96 rounded-full" />
       <div className="blob bg-brand-100 -end-32 bottom-10 h-80 w-80 rounded-full" />
 

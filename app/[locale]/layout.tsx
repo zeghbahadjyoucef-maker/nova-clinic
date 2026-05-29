@@ -33,7 +33,9 @@ export const metadata: Metadata = {
   description:
     'Cabinet Dentaire NOVA,Dr Boulounis. Dentisterie esthétique, chirurgie buccale, implantologie et orthodontie (ODF) à Alger.',
   icons: {
-    icon: '/logo.svg'
+    icon: '/logo.png',
+    shortcut: '/logo.png',
+    apple: '/logo.png'
   }
 };
 

@@ -21,8 +21,8 @@ export function Header() {
   ];
 
   return (
-    <header className="sticky top-0 z-50 w-full">
-      <div className="glass border-b border-white/40">
+    <header className="sticky top-0 z-50 w-full after:pointer-events-none after:absolute after:top-full after:left-0 after:right-0 after:h-16 after:bg-gradient-to-b after:from-brand-50/80 after:to-transparent">
+      <div className="glass">
         <div className="container flex h-20 items-center justify-between md:h-24">
           <a href="#home" className="shrink-0">
             <LogoWordmark />
@@ -33,7 +33,7 @@ export function Header() {
               <a
                 key={l.href}
                 href={l.href}
-                className="relative text-base font-semibold text-ink-soft transition hover:text-brand-700 after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-full after:rounded-full after:bg-brand-400 after:opacity-30 after:transition hover:after:opacity-100"
+                className="text-base font-semibold text-ink-soft transition hover:text-brand-700"
               >
                 {l.label}
               </a>

@@ -8,7 +8,7 @@ export function WhyUs() {
   const items = t.raw('items') as { title: string; body: string }[];
 
   return (
-    <section id="about" className="container py-20 lg:py-28">
+    <section id="about" className="container py-20 scroll-mt-20 md:scroll-mt-24 lg:py-28">
       <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-16">
         <Reveal className="relative mx-auto w-full max-w-md">
           <div className="relative aspect-square overflow-hidden rounded-full bg-brand-100 shadow-card">

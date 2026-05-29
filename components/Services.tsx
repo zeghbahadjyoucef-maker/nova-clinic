@@ -1,21 +1,22 @@
 import { useTranslations } from 'next-intl';
-import { Sparkles, Scissors, Milestone, SlidersHorizontal } from 'lucide-react';
+import { Sparkles, Scissors } from 'lucide-react';
+import { BracesIcon, RockIcon } from './CustomIcons';
 import { Link } from '@/lib/navigation';
 import { Reveal } from './Reveal';
 
 const serviceMeta = [
   { key: 'aesthetic', icon: Sparkles, color: 'bg-brand-500' },
   { key: 'surgery', icon: Scissors, color: 'bg-brand-700' },
-  { key: 'implant', icon: Milestone, color: 'bg-brand-600' },
-  { key: 'odf', icon: SlidersHorizontal, color: 'bg-brand-800' }
-] as const;
+  { key: 'implant', icon: RockIcon, color: 'bg-brand-600' },
+  { key: 'odf', icon: BracesIcon, color: 'bg-brand-800' }
+];
 
 export function Services() {
   const t = useTranslations('services');
   const items = t.raw('items') as Record<string, { title: string; body: string }>;
 
   return (
-    <section id="services" className="relative overflow-hidden py-20 lg:py-28">
+    <section id="services" className="relative overflow-hidden py-20 scroll-mt-20 md:scroll-mt-24 lg:py-28">
       <div className="blob bg-brand-100 -end-32 top-32 h-96 w-96 rounded-full" />
 
       <div className="container relative">
