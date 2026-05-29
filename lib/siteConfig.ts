@@ -2,8 +2,8 @@ export const siteConfig = {
   name: 'Cabinet Dentaire NOVA',
   doctor: 'Dr Boulounis',
   phones: [
-    { label: '0658 02 90 33', raw: '0658029033', whatsapp: '213658029033', hasWhatsapp: false },
-    { label: '0561 17 98 58', raw: '0561179858', whatsapp: '213561179858', hasWhatsapp: true }
+    { label: '0659 06 35 97', raw: '0659063597', whatsapp: '213659063597', hasWhatsapp: false },
+    { label: '0658 02 90 33', raw: '0658029033', whatsapp: '213658029033', hasWhatsapp: true }
   ],
   address: 'BT 03, N01, Réghaïa 16036, Alger',
   email: '',
